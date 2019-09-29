@@ -9,5 +9,5 @@ Details to pass:
 - Custom options on ordered item
 - Qty / Price / Discount
 - Customer ID, name, phone and address details (shipping and billing)
-Bonus: 
+## Bonus: 
 - Admin interface to set SKU(s) it should fire on, and API endpoint
