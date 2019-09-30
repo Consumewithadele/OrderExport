@@ -1,6 +1,6 @@
 {
   "name": "adele/orderexport",
-  "description": "Magento 2 IncrementQty on product page.",
+  "description": "Magento 2 Order Export.",
   "require": {
   },
   "type": "magento2-module",

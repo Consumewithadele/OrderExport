@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="orderexport_tab" translate="label" sortOrder="1000">
+            <label>Order Export Config</label>
+        </tab>
+        <section id="orderexport" translate="label" type="text" sortOrder="100" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>OrderExport Config</label>
+            <tab>orderexport_tab</tab>
+            <resource>Adele_OrderExport::config</resource>
+            <group id="general" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="20" translate="label">
+                <label>General</label>
+                <field id="sku" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="text">
+                    <label>SKU(s)</label>
+                    <comment>Comma separated</comment>
+                </field>
+            </group>
+            <group id="api" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="20" translate="label">
+                <label>API Configuration</label>
+                <field id="endpoint" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="text">
+                    <label>API endpoint</label>
+                </field>
+                <field id="login" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="text">
+                    <label>API login</label>
+                </field>
+                <field id="password" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="text">
+                    <label>API password</label>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
